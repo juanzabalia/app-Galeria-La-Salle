@@ -1,0 +1,23 @@
+{
+  "name": "la_salle",
+  "version": "1.0.0",
+  "description": "Aplicación de escritorio multiplataforma",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Multiplataforma",
+    "Chromium",
+    "Node.js",
+    "Electron"
+  ],
+  "author": "Juan Zabalía",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.4"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}

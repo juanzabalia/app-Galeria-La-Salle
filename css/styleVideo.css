@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    margin: -0.7%;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
+.myvideo{
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+
+img:hover{
+filter: opacity(100%) invert();
+}
+
+img{
+    cursor: pointer;
+    width: 63px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px white;
+	cursor: pointer;
+	background:transparent;
+	border: none;
+	filter: opacity(85%) invert();
+}
+
+.video-view {
+    position: relative;
+  }
+  
+  .video-view .video {
+    position: absolute;
+  }
+  
+  .video-view .video-content {
+    position: absolute;
+    top: 11.5%;
+    right: 5.3%;    
+  }
